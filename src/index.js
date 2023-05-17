@@ -4,6 +4,7 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import Primeiro from './components/basicos/Primeiro'
 import ComParametro from './components/basicos/ComParametro'
+import Fragmento from './components/basicos/Fragmento'
 
 
 createRoot(document.getElementById('root')).render(
@@ -21,5 +22,6 @@ createRoot(document.getElementById('root')).render(
             titulo="Situação do aluno" 
             aluno="Fabio"
             nota={6} />
+            <Fragmento />
     </div> 
 )
